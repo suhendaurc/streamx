@@ -1,0 +1,8 @@
+<?php 
+try{
+$baglanti=new PDO("mysqlp:host=localhost;dbname=okul","root","");
+}catch(PDOException $e){
+    print $->getMessage()
+
+
+
